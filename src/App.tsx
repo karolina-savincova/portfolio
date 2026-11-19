@@ -1,15 +1,12 @@
-import './App.css'
+import './App.css';
 
 function App() {
-
   return (
     <>
       <section id="title">
         <div>
-          <h1> {"{ Karolina Savincova }"} </h1>
-          <p>
-            Full-Stack Developer
-          </p>
+          <h1> {'{ Karolina Savincova }'} </h1>
+          <p>Full-Stack Developer</p>
         </div>
       </section>
 
@@ -19,7 +16,10 @@ function App() {
           <p>Previous work, current projects, and certifications</p>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/karolina-savincova/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/karolina-savincova/"
+                target="_blank"
+              >
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -54,7 +54,7 @@ function App() {
 
       <section id="footer"></section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
