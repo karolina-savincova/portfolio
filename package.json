@@ -5,7 +5,7 @@
   "homepage": "https://karolina-savincova.github.io/portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npx tsc -b && npx vite build",
     "format:check": "npx prettier --check .",
     "format:fix": "npx prettier --write .",
     "lint:check": "npx eslint .",
