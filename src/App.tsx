@@ -20,13 +20,6 @@ function App() {
                 href="https://www.linkedin.com/in/karolina-savincova/"
                 target="_blank"
               >
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/portfolio/linkedin-icon.svg"></use>
-                </svg>
                 LinkedIn
               </a>
             </li>
@@ -38,13 +31,6 @@ function App() {
           <ul>
             <li>
               <a href="https://github.com/karolina-savincova" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/portfolio/github-icon.svg"></use>
-                </svg>
                 GitHub
               </a>
             </li>
